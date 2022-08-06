@@ -1,0 +1,46 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Health cite",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Bauer <bloodmoon87@mail.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "i": "^0.3.6",
+    "mini-css-extract-plugin": "^2.2.0",
+    "url-loader": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "css-webpack-plugin": "^1.0.2",
+    "eslint-loader": "^4.0.2",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
